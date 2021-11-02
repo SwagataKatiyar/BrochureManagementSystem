@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context="com.example.projectionactivity.Main5Activity"
+    android:orientation="vertical">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="102dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/slideViewPager"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dotsLayout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-65dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/trans"
+        android:text="Previous"
+        android:textColor="@color/transparent"
+        android:textSize="15dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dotsLayout"
+        android:layout_alignEnd="@id/slideViewPager"
+        android:layout_alignRight="@id/slideViewPager"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+
+        android:layout_marginBottom="5dp"
+        android:background="@color/trans"
+        android:text="Next"
+        android:textColor="@color/transparent"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,2 @@
+rootProject.name='ProjectionActivity'
+include ':app'

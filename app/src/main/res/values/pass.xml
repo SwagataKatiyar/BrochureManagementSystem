@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="account" >
+    <a href="" color="#FFF">Already have an account?</a>
+    </string>
+
+    <string name="pass" >
+    <a href="" color="#FFF"> Forgot Password?</a>
+    </string>
+
+    <string name="log" >
+    <a href="" color="#FFF">Log In</a>
+    </string>
+
+    <string name="registor" >
+    <a href="" color="#FFF"> Not Registered? Register</a>
+    </string>
+
+    <string name="get_start" >
+    <a href="" color="#FFF"> Get Started? LOG IN</a>
+    </string>
+
+
+
+</resources>
